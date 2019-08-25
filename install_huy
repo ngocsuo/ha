@@ -74,7 +74,7 @@ sudo bash -c 'cat <<EOT >>/usr/local/src/xmrig/build/config.json
             "algo": "cn-trtl",
             "url": "turtle.miner.rocks:5005",
             "user": TRTLuxjsBoLAa95BXSEHANA6jxG2Zba77AEhYAaubwjh94gFii6Cezo9jbUjNSCrkoHxWacAV6CdTAQSPfwxidgyAEWaGdPWAwjPstNHhkvxX6UPy4Nw9WAN8gFmeyDHE1Mr54WVPgwUq1L9DqHKCjmcKNHvoNfrh7w7VHVBj1efakotfkt2jckgyaK
-            "pass": "w=rig-Name",
+            "pass": "w=rig1",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
