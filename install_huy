@@ -71,17 +71,14 @@ sudo bash -c 'cat <<EOT >>/usr/local/src/xmrig/build/config.json
     "log-file": null,
     "pools": [
         {
-            "algo": "cn-trtl",
-            "url": "turtle.miner.rocks:5005",
-            "user": TRTLuxjsBoLAa95BXSEHANA6jxG2Zba77AEhYAaubwjh94gFii6Cezo9jbUjNSCrkoHxWacAV6CdTAQSPfwxidgyAEWaGdPWAwjPstNHhkvxX6UPy4Nw9WAN8gFmeyDHE1Mr54WVPgwUq1L9DqHKCjmcKNHvoNfrh7w7VHVBj1efakotfkt2jckgyaK
-            "pass": "w=rig1",
-            "rig-id": null,
-            "nicehash": false,
-            "keepalive": false,
-            "enabled": true,
-            "tls": false,
-            "tls-fingerprint": null,
-            "daemon": false
+        "pool_address": "turtle.mining.garden:3333",
+        "wallet_address": "TRTLuxjsBoLAa95BXSEHANA6jxG2Zba77AEhYAaubwjh94gFii6Cezo9jbUjNSCrkoHxWacAV6CdTAQSPfwxidgyAEWaGdPWAwjPstNHhkvxX6UPy4Nw9WAN8gFmeyDHE1Mr54WVPgwUq1L9DqHKCjmcKNHvoNfrh7w7VHVBj1efakotfkt2jckgyaK",
+        "rig_id": "johnhoang",
+        "pool_password": "x",
+        "use_nicehash": false,
+        "use_tls": false, /* Set to true if you are using an SSL port */
+        "tls_fingerprint": "",
+        "pool_weight": 1
         }
     ],
     "print-time": 60,
