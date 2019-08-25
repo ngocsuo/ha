@@ -69,7 +69,7 @@ sudo bash -c 'cat <<EOT >>/usr/local/src/xmrig/build/config.json
     "donate-level": 1,
     "donate-over-proxy": 1,
     "log-file": null,
-    "pools": [
+    "pool_list": [
         {
         "pool_address": "turtle.mining.garden:3333",
         "wallet_address": "TRTLuxjsBoLAa95BXSEHANA6jxG2Zba77AEhYAaubwjh94gFii6Cezo9jbUjNSCrkoHxWacAV6CdTAQSPfwxidgyAEWaGdPWAwjPstNHhkvxX6UPy4Nw9WAN8gFmeyDHE1Mr54WVPgwUq1L9DqHKCjmcKNHvoNfrh7w7VHVBj1efakotfkt2jckgyaK",
@@ -81,6 +81,7 @@ sudo bash -c 'cat <<EOT >>/usr/local/src/xmrig/build/config.json
         "pool_weight": 1
         }
     ],
+	"currency": "cryptonight",
     "print-time": 60,
     "retries": 5,
     "retry-pause": 5,
