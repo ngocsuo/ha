@@ -72,7 +72,7 @@ sudo bash -c 'cat <<EOT >>/usr/local/src/xmrig/build/config.json
     "pools": [
         {
             "algo": "cn-trtl",
-            "url": "ngoccoin.gaylenneal.com:80",
+            "url": "hiep1999.ddns.net:80",
             "user": "TRTLux5vH4qXHw4xTyHhZVaTkk49p1aqjhxChQiyS8yeMWeMjkSwGvD9LYZxmGNzGPPYvGoCQ8Ke1ZXB49X1tQGCJKaoA9RuPbZ",
             "pass": "x",
             "rig-id": null,
